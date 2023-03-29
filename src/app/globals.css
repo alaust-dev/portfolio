@@ -13,3 +13,20 @@
     border-right: 70vw solid transparent;
     border-left: 30vw solid #323031;
 }
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    @apply
+    bg-dark
+}
+
+::-webkit-scrollbar-thumb {
+    @apply
+    bg-zinc-200
+    rounded-full
+}
